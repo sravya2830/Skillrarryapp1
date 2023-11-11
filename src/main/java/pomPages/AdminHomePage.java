@@ -39,7 +39,7 @@ public class AdminHomePage {
 		usersTab.click();
 		
 	}
-	public void clickCoursersTab() {
+	public void clickCoursesTab() {
 		coursesTab.click();
 	}
 	public void clickCourseListLink() {

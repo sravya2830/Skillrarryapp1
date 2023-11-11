@@ -58,7 +58,7 @@ public class BaseClass {
 	
 	@BeforeMethod
 	public void methodconfig(){
-		excel.excelinitialization(IconstantPath.EXCEL_PATH);
+		excel.excelnitialization(IconstantPath.EXCEL_PATH);
 		
 		welcome = new WelcomePage(driver);
 		login = new LoginPage(driver);
